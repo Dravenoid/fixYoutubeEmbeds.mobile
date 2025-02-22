@@ -1,10 +1,10 @@
 {
-    "name": "Template Plugin",
-    "description": "A plugin for use as a template.",
+    "name": "fixYoutubeEmbeds",
+    "description": "Bypasses youtube videos being blocked from display on Discord (for example by UMG).",
     "authors": [
         {
-            "name": "You!",
-            "id": "YOUR_ID_HERE"
+            "name": "Dravenoid",
+            "id": "null"
         }
     ],
     "main": "src/index.ts",
