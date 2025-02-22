@@ -1,12 +1,14 @@
-import { logger } from "@vendetta";
-import Settings from "./Settings";
+/*
+ * Vencord, a Discord client mod
+ * Copyright (c) 2023 Vendicated and contributors
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
 
-export default {
-    onLoad: () => {
-        logger.log("Hello world!");
-    },
-    onUnload: () => {
-        logger.log("Goodbye, world.");
-    },
-    settings: Settings,
-}
+import { Devs } from "@utils/constants";
+import definePlugin from "@utils/types";
+
+export default definePlugin({
+    name: "FixYoutubeEmbeds",
+    description: "Bypasses youtube videos being blocked from display on Discord (for example by UMG)",
+    authors: [Devs.coolelectronics]
+});
